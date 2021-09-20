@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+    height: 4rem;
+    width: 67%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.75rem;
+}
+
+/* Your Feed */
+
+.yourfeed {
+    margin: 0 auto;
+    height: 6rem;
+    width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* COLUMNS */
+
+main {
+    display: flex;
+}
+
+.col1 {
+    width: 30%;
+    height: 540px;
+    position: relative;
+}
+
+.col2 {
+    width: 70%;
+    height: 540px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* RIGHT COLUMN */
+
+#neil {
+    position: absolute;
+    top: 0rem;
+    left: 3.5rem;
+}
+
+#nichole {
+    position: absolute;
+    bottom: 12rem;
+    left: 3.5rem;
+}
+
+#jim {
+    position: absolute;
+    bottom: 1rem;
+    left: 3.5rem;
+}
+
+/* LEFT COLUMN */
+
+.jamesdoe {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    border: 4px solid black;
+    width: 13rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#user {
+    height: 6rem;
+}
+
+/* CONTAINERS & LIKE BUTTONS */
+
+.container {
+    border: 4px solid black;
+    height: 10rem;
+    width: 47rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.likes {
+    background-color: orange;
+    border-color: black;
+    height: 40px;
+    width: 110px;
+    box-shadow: 5px 3px 0px black;
+    font-size: 1.1rem;
+}
+
+.container_header {
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.user {
+    font-size: 1.25rem;
+}
+
+.container_footer {
+    height: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: darkgray;
+    height: 100px;
+    border-top: 4px solid black;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Likes</title>
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <div class="yourfeed">
+        <h1>Your Feed</h1>
+    </div>
+    <main>
+        <div class="col1">
+            <div class="jamesdoe">
+                <img id="user" src="./user-circle.png" alt="User Circle">
+                <a href="#">Add an avatar</a>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="container" id="neil">
+                <div class="container_header">
+                    <div class="user"><h3>Neil M</h3></div>
+                    <div class="like">
+                        <p><span id="numberoflikesNeil"></span> like(s)</p>
+                        <button class="likes" onclick="increaseLikesNeil()">Like</button>
+                    </div>
+                </div>
+                <div class="container_footer">
+                    <h3>I just set up this new discord bot, let me</h3>
+                    <h3>know what you all think. <a href="#">link</a></h3>
+                </div>
+            </div>
+            <div class="container" id="nichole">
+                <div class="container_header">
+                    <div class="user"><h3>Nichole K</h3></div>
+                    <div class="like">
+                        <p><span id="numberoflikesNichole"></span> like(s)</p>
+                        <button class="likes" onclick="increaseLikesNichole()">Like</button>
+                    </div>
+                </div>
+                <div class="container_footer">
+                    <h3>Just finished my <a href="#">next comic</a>, check it out.</h3>
+                </div>
+            </div>
+            <div class="container" id="jim">
+                <div class="container_header">
+                    <div class="user"><h3>Jim R</h3></div>
+                    <div class="like">
+                        <p><span id="numberoflikesJim"></span> like(s)</p>
+                        <button class="likes" onclick="increaseLikesJim()">Like</button>
+                    </div>
+                </div>
+                <div class="container_footer">
+                    <h3>I can't stop listening to the <a href="#">new album.</a></h3>
+                    <h3>Who else is liking it?</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+</body>
+</html>
